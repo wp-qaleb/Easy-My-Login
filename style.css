@@ -1,0 +1,122 @@
+/**
+* Plugin Name:       easy my login
+* Plugin URI:        https://wordpress.org
+* Description:       With this plugin, the default WordPress login page will change its appearance.
+* Version:           1.5.0
+* Author:            wp-qaleb.ir
+* Author URI:        http://wp-qaleb.ir
+* Text Domain:       easy-my-login
+*/
+.rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 {
+font-family: Open Sans,sans-serif;
+}
+body {
+background:#fff url(bg.png) no-repeat center  !important;
+font-family: Open Sans,sans-serif  !important;
+}
+.login label {
+font-family: Open Sans,sans-serif !important;
+font-size: 14px !important;
+}
+body.rtl, body.rtl .press-this a.wp-switch-editor {
+font-family: Open Sans,sans-serif !important;
+}
+#login {
+width:350px !important;
+padding:5px 24px 0px !important;
+margin: auto !important;
+float: right !important;
+background: #fff !important;
+height: 100% !important;
+overflow: hidden !important;
+box-shadow:0 3px 20px rgba(0,0,0,.05) !important;
+}
+
+@media only screen and (max-width: 320px){#login {
+width: 320px !important;}}
+.login h1 a{
+background:url(login_icon.png) no-repeat center !important;
+height: 200px !important;
+width: 250px !important;
+}
+.login form {
+margin-right: 0 !important;
+padding:0 5px !important;
+box-shadow: none !important;
+}
+login #login_error, .login .message {
+border: none !important;
+padding: 12px !important;
+margin-right: 0 !important;
+margin-bottom: 20px !important;
+box-shadow: none !important;
+border-radius: 5px !important;
+text-align: center !important;
+color: #deb25e !important;
+font-size: 13px !important;
+background: #fffaee !important;
+}
+.login form .input, .login form input[type="checkbox"], .login input[type="text"] {
+background: #f1f4f5 !important;
+}
+input[type="text"], input[type="search"], input[type="radio"], input[type="tel"], input[type="time"], input[type="url"], input[type="week"], input[type="password"], input[type="checkbox"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], select, textarea {
+border: none !important;
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07) !important;
+box-shadow: none !important;
+background-color: #fff !important;
+color: #32373c !important;
+outline: 0 !important;
+-webkit-transition: 50ms border-color ease-in-out !important;
+transition: 50ms border-color ease-in-out !important;border-radius:3px !important;
+}
+login form .input, .login input[type="text"] {
+font-size: 24px !important;
+width: 100% !important;
+padding: 5px !important;
+padding-top: 5px !important;
+padding-right: 5px !important;
+padding-bottom: 5px !important;
+padding-left: 5px !important;
+margin: 10px 0 16px 6px !important;
+}
+.wp-core-ui .button-primary {
+color: #FFF !important;
+transition: all 0.2s ease-in-out !important;
+font: 14px Medium !important;
+float: right !important;
+border: none !important;
+height: auto !important;
+width: auto !important;
+padding: 10px 25px !important;
+cursor: pointer !important;
+border-radius: 5px !important;
+box-shadow: 0 0 0 4px rgba(255, 201, 84, 0.2) !important;
+background: #FFC954 !important;
+margin: 20px 0 !important;
+text-decoration: none !important;
+text-shadow: none !important;
+font-family: Open Sans,sans-serif !important;	
+}
+.wp-core-ui .button-primary:hover{
+background:#FFBD2E !important;	
+box-shadow: 0 0 0 6px rgba(255, 201, 84, 0.2) !important;
+}
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+height: 50px !important;
+line-height: 15px !important;
+padding: 10px 35px !important;
+}
+
+#login form .forgetmenot label {
+font-size: 12px !important;
+line-height: 19px;
+width: 100% !important;
+display: inline-block;
+}
+#login form p {
+margin-bottom: 0;
+width: 100% !important;
+}
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
+color:#FFBD2E !important;
+}
